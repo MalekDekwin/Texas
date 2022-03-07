@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'texas';
+  src: URL('../public/styling/font.ttf') format('truetype');
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Texas;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

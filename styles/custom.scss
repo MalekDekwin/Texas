@@ -1,0 +1,42 @@
+#custom {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 100px;
+  .container {
+    width: 600px;
+  }
+  h2,
+  h3,
+  .title {
+    font-family: fantasy;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .sub {
+    font-size: 18px;
+    color: rgb(43, 35, 35);
+    font-weight: 300;
+    font-family: fantasy;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .qty {
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid #eee;
+  }
+  .dicr {
+    background: #f8b02d;
+    height: 30px;
+    border: #f8b02d;
+    width: 30px;
+    border-radius: 4px 0px 0px 4px;
+  }
+  .incr {
+    background: #f8b02d;
+    height: 30px;
+    border: #f8b02d;
+    width: 30px;
+    border-radius: 0px 4px 4px 0px;
+  }
+}
