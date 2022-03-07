@@ -22,13 +22,25 @@ const customize = () => {
               <Image src={ing.ImagePath} alt="" width={50} height={50} />
             </div>
             <div className="col">{ing.Name}</div>
-            <div className="col">{ing.Price}   {" "} SAR</div>
+            <div className="col">{ing.Price} SAR</div>
             <div className="col">
-              <input onClick={()=>{
-                  
-              }} className="dicr" type="submit" value="-"/> 
-              <input className="qty" type="number"  value={ing.Quantity} />
-              <input className="incr" type="submit" value="+"/> 
+              <input
+                onClick={() => {
+                  dispatch(increaseQty());
+                }}
+                className="dicr"
+                type="submit"
+                value="-"
+              />
+              <input className="qty" type="number" value={ing.Quantity} />
+              <input
+                onClick={() => {
+                  dispatch(increaseQty());
+                }}
+                className="incr"
+                type="submit"
+                value="+"
+              />
             </div>
 
             <hr />
